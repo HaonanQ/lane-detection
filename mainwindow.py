@@ -223,7 +223,7 @@ class VideoTimer(QThread):
             video_fps = 30  # 异常值保护
         self.fps = video_fps
         # 计算每帧间隔时间（秒）
-        self.interval = 1.0 / self.fps
+        self.interval = 2.5 / self.fps
 
     def run(self):
         with QMutexLocker(self.mutex):

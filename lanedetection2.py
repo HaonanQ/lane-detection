@@ -1,14 +1,6 @@
 #!/usr/bin/python
 # -*- encoding: utf-8 -*-
-"""
-################################################################################
-@File              :   lanedetection.py
-@Time              :   2021/07/08 22:49:31
-@Author            :   liuyangly
-@Email             :   522927317@qq.com
-@Desc              :   基于Opencv的车道线检测（优化版）
-################################################################################
-"""
+
 # Built-in modules
 import argparse
 import math
