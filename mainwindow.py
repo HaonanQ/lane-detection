@@ -97,7 +97,7 @@ class Ui_MainWindow(QMainWindow):
             )
             return
         
-        if file_name[0].endswith('.jpg'):
+        if file_name[0].endswith('.jpg') or file_name[0].endswith('.jpeg') or file_name[0].endswith('.png'):
             self.format = 1
             # 读取图片
             self.data = cv2.imread(file_name[0], 1)
